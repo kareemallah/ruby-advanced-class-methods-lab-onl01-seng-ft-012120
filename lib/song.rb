@@ -66,3 +66,5 @@ class Song
   end
 
 end
+
+expect(Song.all).to include(song)
